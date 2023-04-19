@@ -6,6 +6,8 @@ using static TaskConsoleApp.WaitAll;
 using static TaskConsoleApp.Delay;
 using static TaskConsoleApp.TaskStartNew;
 using static TaskConsoleApp.FromResult;
+using static TaskConsoleApp.TaskResult;
+using static TaskConsoleApp.TaskProperties;
 
 internal class Program
 {
@@ -16,6 +18,12 @@ internal class Program
         //await WaitAllTask();
         //await DelayTask();
         //await TaskStartNewTask();
-        await FromResultTask();
+        //await FromResultTask();
+
+        //At TaskResult.cs
+        //Console.WriteLine(GetData());
+
+        // At TaskProperties.cs
+        await TaskProps();
     }
 }

@@ -11,7 +11,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "Windows
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormTaskCancellationToken", "WinFormTaskCancellationToken\WinFormTaskCancellationToken.csproj", "{005F5411-4EFD-4FF9-BEB5-E01D8A8AAD18}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskApiApp", "TaskApiApp\TaskApiApp.csproj", "{FEA18224-3525-49BE-8111-FDA0B9C04CE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaskApiApp", "TaskApiApp\TaskApiApp.csproj", "{FEA18224-3525-49BE-8111-FDA0B9C04CE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL", "TPL\TPL.csproj", "{8A97F88C-A5FD-42C0-A6A7-5C2AA67EB173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPLCancellationToken", "TPLCancellationToken\TPLCancellationToken.csproj", "{25465668-3B59-4C41-AF98-569349DC9498}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{FEA18224-3525-49BE-8111-FDA0B9C04CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEA18224-3525-49BE-8111-FDA0B9C04CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEA18224-3525-49BE-8111-FDA0B9C04CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A97F88C-A5FD-42C0-A6A7-5C2AA67EB173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A97F88C-A5FD-42C0-A6A7-5C2AA67EB173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A97F88C-A5FD-42C0-A6A7-5C2AA67EB173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A97F88C-A5FD-42C0-A6A7-5C2AA67EB173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25465668-3B59-4C41-AF98-569349DC9498}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25465668-3B59-4C41-AF98-569349DC9498}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25465668-3B59-4C41-AF98-569349DC9498}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25465668-3B59-4C41-AF98-569349DC9498}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
